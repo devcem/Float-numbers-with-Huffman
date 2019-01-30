@@ -24,8 +24,11 @@ When we compress this data with this compressor, it provides an ASCI output like
 And this output costs 23 bytes which is perfect for most cases.
 
 Simply using encode function encodes JSON and decode function decodes ASCI output. Here is an full example :
+
 ```var value   = JSON.stringify([1,0,-108.566,2.200,0.182,0.800,0.00044049781129770765,-89.968]);```
+
 ```var encoded = floatCompress.encode(value);```
+
 ```var decoded = floatCompress.decode(encoded);```
 
 ## TODO
