@@ -8,9 +8,9 @@ Also, compressing all data on socket.io causes another problem. It sends extra b
 
 ## Advantages
 + Very simple
-+ Works on browser
-+ Easy to implement
-+ It's still possible to use JSON format
++ Works on browser (Tested on Chrome, Firefox)
++ Easy to implement (only encode and decode functions)
++ It's still possible to use JSON format on socket io for other emits
 
 ## Examples
 I'm sending position and rotation data like this :
